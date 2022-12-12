@@ -45,10 +45,12 @@ export default function Projects() {
                 </button>
               </a>
             </div>
-            <p className='max-w-prose py-9 px-1 sm:text-2xl text-2xl mb-4'>
-                <br/><br/><br/>
+            <p className="max-w-prose py-9 px-1 sm:text-2xl text-2xl mb-4">
+              <br />
+              <br />
+              <br />
               웹프로그래밍 개인쇼핑몰
-              <br/> 웹 구축하기
+              <br /> 웹 구축하기
             </p>
           </div>
         </div>
@@ -57,22 +59,35 @@ export default function Projects() {
           <div className="relative grid grid-cols-2 shadow-md bg-slate-100">
             <div className="relative">
               <Image layout="fixed" width={300} height={350} src="/ping.jpg" />
-              <button class="ml-7 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                GitHub
-              </button>
-              <button class="ml-10 inline-flex text-gray-700 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                Web
-              </button>
-            </div>   
-            <p className='max-w-prose py-9 px-1 sm:text-2xl text-2xl mb-4'>
-                <br/><br/><br/>
-               탁구 경기의 전반적인 룰과
-               <br/> 점수를 구할 수 있는 
-               <br/>웹 사이트 입니다.
+              <a
+                href="https://github.com/triplezero903/ping_pongpong"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button class="ml-7 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  GitHub
+                </button>
+              </a>
+              <a
+                href="https://ping-pongpong.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button class="ml-10 inline-flex text-gray-700 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                  Web
+                </button>
+              </a>
+            </div>
+            <p className="max-w-prose py-9 px-1 sm:text-2xl text-2xl mb-4">
+              <br />
+              <br />
+              <br />
+              탁구 경기의 전반적인 룰과
+              <br /> 점수를 구할 수 있는
+              <br />웹 사이트 입니다.
             </p>
           </div>
         </div>
-   
       </>
     </Layout>
   );
