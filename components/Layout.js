@@ -12,10 +12,8 @@ export default function Layout({ title, children }) {
       </Head>
 
       <div className="flex flex-col h-screen justify-between">
-
         <header class="text-purple-900 body-font">
           <div class="flex justify-between items-center   h-20 px-5 shadow-md bg-sky-100">
-           
             <Link href="/">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <svg
@@ -67,7 +65,6 @@ export default function Layout({ title, children }) {
               </button>
             </a>
           </div>
-         
         </header>
 
         <main className="container m-auto mt-4 px-4"> {children} </main>
@@ -76,7 +73,7 @@ export default function Layout({ title, children }) {
           <div class="bg-gray-300">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
               <p2 class="text-gray-800 text-sm text-center sm:text-left">
-                HJ - Portfolio
+                Copyright 2022, HJ Portfolio
                 <a
                   href="https://twitter.com/knyttneve"
                   rel="noopener noreferrer"
@@ -84,6 +81,7 @@ export default function Layout({ title, children }) {
                   target="_blank"
                 ></a>
               </p2>
+
               <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a
                   class="text-blue-600"

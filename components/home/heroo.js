@@ -7,6 +7,9 @@ export default function Heroo() {
         <h1 class="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-900">
           이름: 김호준
           <br class="hidden lg:inline-block" />
+          <br /> 
+          생년월일: 2000. 09. 18
+          <br class="hidden lg:inline-block" />
           <br />
           학교: 중부대학교
           <br class="hidden lg:inline-block" />
