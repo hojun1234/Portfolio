@@ -69,7 +69,7 @@ export default function Projects() {
                 </button>
               </a>
               <a
-                href="https://ping-pongpong.vercel.app/"
+                href="https://timple.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
